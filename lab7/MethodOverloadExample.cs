@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace lab7
+{
+    class MethodOverloadExample
+    {
+        static void Main1(string[] args)
+        {
+            Console.WriteLine("Square of integer value " +Square(5));
+            Console.WriteLine("Square of float value " +Square(2.5F));
+        }
+    static int Square(int num)
+    {
+        return num * num;
+    }
+    static float Square(float num)
+    {
+        return num * num;
+    }
+    }
+    
+} 
+
